@@ -11,7 +11,7 @@ const StateTutorial = () => {
   return (
     <div>
       <br></br>
-      <h1>React Hooks Study <a href="url">GitHub</a></h1>
+      <h1>React Hooks Study <a href="https://github.com/Danni-Yao/reacthooks.git">GitHub</a></h1>
       {inputValue}
       <input placeholder="enter something..." onChange={onChange} />
       
