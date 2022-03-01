@@ -15,7 +15,8 @@ function LayoutEffectTutorial() {
     <div className="App">
       <hr></hr>
       <h3>UseLayoutEffect Hook example:</h3>
-      <input ref={inputRef} value="UseLayoutEffect" placeholder="..." style={{ width: 400, height: 60 }} />
+      <p>UseLayoutEffect will calls before useEffect </p>
+      <input ref={inputRef} value="UseLayoutEffect"  style={{ width: 400, height: 60 }} />
     </div>
   );
 }
